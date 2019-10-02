@@ -198,6 +198,15 @@ h1 {
   align-self: center;
 }
 
+.button-service {
+	border: 1px solid gray;
+	padding: 5px 30px;
+	border-radius: 10px;
+	text-decoration: none;
+	margin-top: 5%;
+	background-color: white;
+}
+
 .main-content {
   display: flex;
   justify-content: space-between;
@@ -233,8 +242,9 @@ small {
 }
 
 .info {
-	background-color: rgb(204, 203, 203);
+	background-color: 	#F3F3F3;
 	border: 1px solid black;
+	padding: 5%;
 }
 
 .services {
@@ -244,4 +254,8 @@ small {
 
 ul {
 	list-style-type: square;
+  }
+
+  p {
+	  margin: 20px 0;
   }
