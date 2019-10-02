@@ -192,42 +192,56 @@ h1 {
 }
 
 .button {
-	border: 1px solid gray;
-	padding: 10px 20px;
-	font-size: 20px;
-	align-self: center;
+  border: 1px solid gray;
+  padding: 10px 20px;
+  font-size: 20px;
+  align-self: center;
 }
 
 .main-content {
-	display: flex;
-	justify-content: space-between;
-	margin: 5% 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 0;
 }
 
 section {
-	margin: 5%;
+  margin: 5%;
 }
 
-.middle-img {
-	display: flex;
-	width: 100%;
+.middle-img, .services-header-image {
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 footer {
-	border-top: 1px solid gray;
-	padding-top: 5%;
+  border-top: 1px solid gray;
+  padding-top: 5%;
 }
 
 address {
-	border-bottom: 1px solid gray;
-	padding-bottom: 5%;
+  border-bottom: 1px solid gray;
+  padding-bottom: 5%;
 }
 
 small {
-	margin: 25%;
-	width: 50%;
-	text-align: center;
-	display: flex;
-	justify-content: center;
-
+  margin: 25%;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
+
+.info {
+	background-color: rgb(204, 203, 203);
+	border: 1px solid black;
+}
+
+.services {
+	display: flex;
+	flex-direction: column;
+}
+
+ul {
+	list-style-type: square;
+  }
