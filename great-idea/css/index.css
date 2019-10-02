@@ -157,7 +157,7 @@ h5 {
 
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   /* flex-wrap: nowrap; */
 }
 .logo,
@@ -195,4 +195,38 @@ h1 {
 	padding: 10px 20px;
 	font-size: 20px;
 	align-self: center;
+}
+
+.main-content {
+	display: flex;
+	justify-content: space-between;
+	margin: 5% 0;
+}
+
+section {
+	margin: 5%;
+}
+
+.middle-img {
+	display: flex;
+	width: 100%;
+}
+
+footer {
+	border-top: 1px solid gray;
+	padding-top: 5%;
+}
+
+address {
+	border-bottom: 1px solid gray;
+	padding-bottom: 5%;
+}
+
+small {
+	margin: 25%;
+	width: 50%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+
 }
